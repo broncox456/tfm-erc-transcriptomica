@@ -1,0 +1,16 @@
+file	exists	size_bytes
+README.md	TRUE	4481
+renv.lock	TRUE	359990
+CITATION.bib	TRUE	186
+LICENSE	TRUE	1092
+config/paths.yml	TRUE	398
+config/params.yml	TRUE	162
+scripts/run_pipeline.R	TRUE	2085
+scripts/01_validate.R	TRUE	1602
+scripts/export_session_info.R	TRUE	864
+scripts/snapshot_renv.R	TRUE	558
+scripts/legacy_analysis.R	TRUE	11105
+results	TRUE	4096
+data	TRUE	0
+R	TRUE	4096
+logs	TRUE	4096
