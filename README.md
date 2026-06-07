@@ -185,5 +185,5 @@ Máster Universitario en Bioinformática
 Universidad Alfonso X el Sabio (UAX)
 
 República Dominicana
-tu auditoría, con el profesor, con el repositorio real y con el nivel esperado para una defensa de TFM. Ahora pasaría directamente al **Capítulo 4 del manuscrito**.
+
 
