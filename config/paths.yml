@@ -1,0 +1,18 @@
+project_root: '.'
+data:
+  raw: data/raw
+  meta: data/meta
+  processed: data/processed
+  cache: data/cache
+results:
+  qc: results/qc
+  exploratory: results/exploratory
+  differential: results/differential
+  enrichment: results/enrichment
+  figures: results/figures
+  tables: results/tables
+  de: results/differential
+  go: results/enrichment
+logs: logs
+annexes: annexes
+docs: docs

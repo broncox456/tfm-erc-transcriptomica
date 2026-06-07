@@ -1,0 +1,10 @@
+dataset:
+  gse: GSE12682
+  platform: GPL571
+analysis:
+  contrast: CKD_vs_Control
+  fdr: 0.05
+  logfc: 1.0
+project:
+  seed: 123
+  author: Cristian Arias

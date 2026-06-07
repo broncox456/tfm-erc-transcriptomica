@@ -1,0 +1,9 @@
+﻿*.pdf
+*.zip
+*.docx
+*.doc
+*.tmp
+~$*
+.Rhistory
+.RData
+.Rproj.user/
