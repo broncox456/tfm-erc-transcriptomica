@@ -79,15 +79,15 @@ Este proyecto utiliza transcriptómica y bioinformática para identificar altera
 
 1. Descarga de datos desde GEO.
 2. Curación y organización de metadatos.
-3. Normalización mediante RMA.
-4. Control de calidad.
-5. Análisis de Componentes Principales (PCA).
-6. Expresión génica diferencial mediante limma.
-7. Corrección por comparaciones múltiples (Benjamini–Hochberg).
-8. Enriquecimiento funcional GO y KEGG.
-9. Generación automática de figuras y tablas.
-10. Auditoría de reproducibilidad.
-
+3. Normalización entre arrays mediante limma::normalizeBetweenArrays().
+4. Colapsado de múltiples sondas a nivel génico utilizando la mediana.
+5. Control de calidad.
+6. Análisis de Componentes Principales (PCA) utilizando los 2.000 genes con mayor variabilidad.
+7. Expresión génica diferencial mediante limma.
+8. Corrección por comparaciones múltiples (Benjamini–Hochberg).
+9. Enriquecimiento funcional GO y KEGG mediante clusterProfiler.
+10. Generación automática de figuras y tablas.
+11. Auditoría de reproducibilidad y trazabilidad.
 ---
 
 # Resultados Generados
@@ -135,11 +135,15 @@ docs/output_traceability.md
 
 # Hallazgos Principales
 
-* Activación inflamatoria crónica.
-* Remodelado de matriz extracelular.
-* Procesos profibróticos.
+*# Hallazgos Principales
+
+* 365 genes diferencialmente expresados.
+* 138 genes sobreexpresados en ERC.
+* 227 genes infraexpresados en ERC.
+* Activación de programas inflamatorios y profibróticos.
+* Remodelado de la matriz extracelular.
 * Alteraciones metabólicas tubulares.
-* Disfunción epitelial renal.
+* Disfunción epitelial renal y pérdida progresiva de funciones especializadas del tejido renal.
 
 Principales rutas enriquecidas:
 
@@ -148,6 +152,11 @@ Principales rutas enriquecidas:
 * TGF-beta Signaling Pathway.
 * PI3K-Akt Signaling Pathway.
 
+Genes destacados identificados en el análisis:
+
+* PTPRC ↑ (sobreexpresado)
+* NPHS1 ↓ (infraexpresado)
+* NPHS2 ↓ (infraexpresado)
 ---
 
 # Limitaciones
