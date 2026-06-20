@@ -133,8 +133,6 @@ docs/output_traceability.md
 
 ---
 
-# Hallazgos Principales
-
 *# Hallazgos Principales
 
 * 365 genes diferencialmente expresados.
